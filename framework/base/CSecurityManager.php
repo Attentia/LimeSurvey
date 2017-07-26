@@ -366,9 +366,24 @@ class CSecurityManager extends CApplicationComponent
 	 */
 	public function generateRandomString($length,$cryptographicallyStrong=true)
 	{
-		if(($randomBytes=$this->generateRandomBytes($length+2,$cryptographicallyStrong))!==false)
-			return strtr($this->substr(base64_encode($randomBytes),0,$length),array('+'=>'_','/'=>'~'));
-		return false;
+		$token = '';
+ 		$counter = 0;
+
+		while(empty($token) || strpos($token, '~~') !== false) {
+			if (($randomBytes=$this->generateRandomBytes($length+2,$cryptographicallyStrong))!==false) {
+				$token = strtr($this->substr(base64_encode($randomBytes),0,$length),array('+'=>'_','/'=>'~'));
+				$counter++;	
+
+				if ($counter > 10)
+				{
+						throw new CHttpException(500, 'Failed to create unique token, excluding ~~, in 10 attempts.');
+				}
+			} else {
+				return false;
+			}
+		}
+		
+		return $token;
 	}
 
 	/**
