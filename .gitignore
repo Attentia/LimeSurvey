@@ -36,4 +36,7 @@ launch.json
 !/plugins/index.html
 !/plugins/Demo/
 !/plugins/AuditLog/
+!/plugins/HeartBeat/
+!/plugins/RaygunPulse/
+!/plugins/TokenRPC/
 enabletests
