@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$source$Attentia.SA.Motor.UI</id>
+    <title>Attentia SA Motor - UI</title>
+    <version>$version$</version>
+    <authors>Attentia</authors>
+    <owners>Attentia</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Attentia SelfAssessments Motor - UI ($buildversion$)</description>
+  </metadata>
+
+  <files>
+		<file src="**" target="" exclude="application\config\config.php" />
+		<file src="application\config\config.octopus.php" target="application\config\config.php" />
+  </files>
+</package>
