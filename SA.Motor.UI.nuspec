@@ -13,6 +13,6 @@
   <files>
 		<file src="**" target="" exclude=".user.ini;application\config\config.php" />
 		<file src="application\config\config.octopus.php" target="application\config\config.php" />
-		<file src=".user.octopus.ini" target=".user.ini" />
+		<file src="user.octopus.ini" target=".user.ini" />
   </files>
 </package>
