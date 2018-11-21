@@ -19,6 +19,7 @@ return array(
 						'class' => 'CFileLogRoute',
 						'levels' => 'info, warning, error',
 						'except' => 'exception.CHttpException.404',
+						'logPath' => '#{WebsiteSurveyLogFilePath}',
 						'logFile' => '#{WebsiteSurveyLogFileName}',
 						'rotateByCopy' => true,
 						'maxFileSize' => #{WebsiteSurveyLogFileMaxSizeInKB},
@@ -41,10 +42,6 @@ return array(
         )
 	
 	),
-	
-	// For security issue : it's better to set runtimePath out of web access
-	// Directory must be readable and writable by the webuser
-	'runtimePath'=> '#{WebsiteSurveyLogFilePath}',
 	
 	'config'=>array(
 		'debug'=>'#{WebsiteSurveyDebug}',
