@@ -1674,8 +1674,9 @@ class remotecontrol_handle
     * @return array in case of partial success the final participant data
     */
     public function add_participants($sSessionKey, $iSurveyID, $aParticipantData, $bCreateToken=true)
-    {
+    {       
         if (!$this->_checkSessionKey($sSessionKey)) return array('status' => 'Invalid session key');
+        
         $oSurvey=Survey::model()->findByPk($iSurveyID);
         if (is_null($oSurvey))
         {
@@ -1686,7 +1687,12 @@ class remotecontrol_handle
         {
             if (!Yii::app()->db->schema->getTable('{{tokens_' . $iSurveyID . '}}'))
                 return array('status' => 'No token table');
+            
+            Yii::log("ATTENTIA LOG : aantal deelnemers in data : ".count($aParticipantData));
+            $attAantalErrors = 0;
+
             $aDestinationFields = array_flip(Token::model($iSurveyID)->getMetaData()->tableSchema->columnNames);
+
             foreach ($aParticipantData as &$aParticipant)
             {
                 $token = Token::create($iSurveyID);
@@ -1695,15 +1701,30 @@ class remotecontrol_handle
                 {
                     $token->generateToken();
                 }
-                if ($token->save())
-                {
-                    $aParticipant = $token->getAttributes();
+                try {
+                    if ($token->save())
+                    {
+                        $aParticipant = $token->getAttributes();
+                    }
+                    else
+                    {
+                        Yii::log("ATTENTIA LOG : remotecontrol_handle.php - line 1711 : save deelnemer niet gelukt");
+                        $attAantalErrors = $attAantalErrors + 1;
+                        $aParticipant["errors"] = $token->errors;    
+                    }    
                 }
-                else
-                {
-                    $aParticipant["errors"] = $token->errors;
+                catch (Exception $e) {
+                    Yii::log("ATTENTIA LOG : remotecontrol_handle.php - line 1717 : error bij save : ".$e->getMessage());
+                    $attAantalErrors = $attAantalErrors + 1;
+                    $aParticipant["errors"] = $e->getMessage();
                 }
             }
+
+            if ($attAantalErrors > 0) {
+                Yii::log("ATTENTIA LOG : aantal deelnemers in error : ".$attAantalErrors);
+            }
+            Yii::log("ATTENTIA LOG : ".(count($aParticipantData) - $attAantalErrors)." deelnemers zijn ingeladen");
+
             return $aParticipantData;
         }
         else
