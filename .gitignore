@@ -4,6 +4,7 @@
 /upload/surveys/*
 /upload/templates/*
 /upload/labels/*
+/upload/images/surveys/*
 /tmp/runtime/HTML
 /tmp/runtime/*.log*
 /application/controllers/admin/updater.php
