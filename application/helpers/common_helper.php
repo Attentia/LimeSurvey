@@ -2818,7 +2818,20 @@ function SendEmailMessage($body, $subject, $to, $from, $sitename, $ishtml=false,
     {
         ob_start();
     }
+
+    //ATTENTIA LOG START 1
+    Yii::log("ATTENTIA LOG : START MAIL aan '".print_r($to[0], true)."' met onderwerp '$mail->Subject'.");
+    $mailsendStart = microtime(true);    
+    //ATTENTIA LOG EINDE 1
+
     $sent=$mail->Send();
+
+    //ATTENTIA LOG START 2
+    $mailsendStop = microtime(true);
+    $mailsendDuurInMilliSecs = round(($mailsendStop - $mailsendStart) * 1000);
+    Yii::log("ATTENTIA LOG : STOP MAIL aan '".print_r($to[0], true)."' met onderwerp '$mail->Subject'. Duur in milliSeconds : '$mailsendDuurInMilliSecs'.");
+    //ATTENTIA LOG EINDE 2
+
     $maildebug=$mail->ErrorInfo;
     if ($emailsmtpdebug>0) {
         $maildebug .= '<br><strong>'. gT('SMTP debug output:').'</strong><pre>'.\CHtml::encode(ob_get_contents()).'</pre>';
@@ -2826,6 +2839,7 @@ function SendEmailMessage($body, $subject, $to, $from, $sitename, $ishtml=false,
     }
     $maildebugbody=$mail->Body;
     //if(!$sent) var_dump($maildebug);
+    
     return $sent;
 }
 
