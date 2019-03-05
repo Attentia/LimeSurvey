@@ -126,6 +126,8 @@ class remotecontrol_handle
     */
     public function add_survey($sSessionKey, $iSurveyID, $sSurveyTitle, $sSurveyLanguage, $sformat = 'G')
     {
+        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start.");
+
         Yii::app()->loadHelper("surveytranslator");
         if ($this->_checkSessionKey($sSessionKey))
         {
@@ -162,10 +164,12 @@ class remotecontrol_handle
                     $langsettings->insertNewSurvey($aInsertData);
                     Permission::model()->giveAllSurveyPermissions(Yii::app()->session['loginID'], $iNewSurveyid);
 
+                    Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : end.");
                     return (int)$iNewSurveyid;
                 }
                 catch(Exception $e)
                 {
+                    Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : error bij save : ".$e->getMessage());
                     return array('status' => $e->getmessage());
                 }
             }
@@ -188,11 +192,14 @@ class remotecontrol_handle
     */
     public function delete_survey($sSessionKey, $iSurveyID)
     {
+        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start.");
+
         if ($this->_checkSessionKey($sSessionKey))
         {
             if (Permission::model()->hasSurveyPermission($iSurveyID, 'survey', 'delete'))
             {
                 Survey::model()->deleteSurvey($iSurveyID,true);
+                Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : end.");
                 return array('status' => 'OK');
             }
             else
@@ -397,6 +404,8 @@ class remotecontrol_handle
     */
     public function activate_survey($sSessionKey, $iSurveyID)
     {
+        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start.");
+
         if ($this->_checkSessionKey($sSessionKey))
         {
             $oSurvey=Survey::model()->findByPk($iSurveyID);
@@ -410,6 +419,7 @@ class remotecontrol_handle
                 if (isset($aActivateResults['error'])) {
                     return array('status' => 'Error: '.$aActivateResults['error']);
                 } else {
+                    Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : end.");
                     return $aActivateResults;
                 }
             }
@@ -1675,6 +1685,8 @@ class remotecontrol_handle
     */
     public function add_participants($sSessionKey, $iSurveyID, $aParticipantData, $bCreateToken=true)
     {       
+        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start.");
+
         if (!$this->_checkSessionKey($sSessionKey)) return array('status' => 'Invalid session key');
         
         $oSurvey=Survey::model()->findByPk($iSurveyID);
@@ -1688,7 +1700,7 @@ class remotecontrol_handle
             if (!Yii::app()->db->schema->getTable('{{tokens_' . $iSurveyID . '}}'))
                 return array('status' => 'No token table');
             
-            Yii::log("ATTENTIA LOG : aantal deelnemers in data : ".count($aParticipantData));
+            Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : aantal deelnemers in data : '".count($aParticipantData)."'");
             $attAantalErrors = 0;
 
             $aDestinationFields = array_flip(Token::model($iSurveyID)->getMetaData()->tableSchema->columnNames);
@@ -1708,23 +1720,23 @@ class remotecontrol_handle
                     }
                     else
                     {
-                        Yii::log("ATTENTIA LOG : remotecontrol_handle.php - line 1711 : save deelnemer niet gelukt");
+                        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : save deelnemer niet gelukt.");
                         $attAantalErrors = $attAantalErrors + 1;
                         $aParticipant["errors"] = $token->errors;    
                     }    
                 }
                 catch (Exception $e) {
-                    Yii::log("ATTENTIA LOG : remotecontrol_handle.php - line 1717 : error bij save : ".$e->getMessage());
+                    Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : error bij save : ".$e->getMessage());
                     $attAantalErrors = $attAantalErrors + 1;
                     $aParticipant["errors"] = $e->getMessage();
                 }
             }
 
             if ($attAantalErrors > 0) {
-                Yii::log("ATTENTIA LOG : aantal deelnemers in error : ".$attAantalErrors);
+                Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : aantal deelnemers in error : '".$attAantalErrors."'");
             }
-            Yii::log("ATTENTIA LOG : ".(count($aParticipantData) - $attAantalErrors)." deelnemers zijn ingeladen");
 
+            Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : '".(count($aParticipantData) - $attAantalErrors)."' deelnemers zijn ingeladen");
             return $aParticipantData;
         }
         else
@@ -1743,6 +1755,8 @@ class remotecontrol_handle
     */
     public function delete_participants($sSessionKey, $iSurveyID, $aTokenIDs)
     {
+        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start.");
+
         if ($this->_checkSessionKey($sSessionKey))
         {
             $iSurveyID = sanitize_int($iSurveyID);
@@ -1767,6 +1781,7 @@ class remotecontrol_handle
                     else
                         $aResult[$iTokenID]='Deletion went wrong';
                 }
+                Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : end.");
                 return $aResult;
             }
             else
@@ -2252,6 +2267,8 @@ class remotecontrol_handle
      */
     public function mail_registered_participants($sSessionKey, $iSurveyID, $overrideAllConditions=Array() )
     {
+        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start.");
+
         Yii::app()->loadHelper('admin/token');
         if (!$this->_checkSessionKey($sSessionKey))
             return array('status' => 'Invalid session key');
@@ -2318,6 +2335,8 @@ class remotecontrol_handle
             $iLeft = $iAllTokensCount - count($aResultTokens);
             $aResult['status'] = $iLeft . " left to send";
 
+            Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : end.");
+
             return $aResult;
         }
         else
@@ -2338,9 +2357,13 @@ class remotecontrol_handle
     */
     public function invite_participants($sSessionKey, $iSurveyID, $aTokenIds = false, $bEmail = true )
     {
+        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start.");
+
         Yii::app()->loadHelper('admin/token');
+
         if (!$this->_checkSessionKey($sSessionKey))
             return array('status' => 'Invalid session key');
+
 
         $oSurvey = Survey::model()->findByPk($iSurveyID);
         if (!isset($oSurvey))
@@ -2375,9 +2398,12 @@ class remotecontrol_handle
 
             if (empty($aResultTokens))
                 return array('status' => 'Error: No candidate tokens');
+
             $aResult = emailTokens($iSurveyID,$aResultTokens,'invite');
             $iLeft = $iAllTokensCount - count($aResultTokens);
             $aResult['status'] =$iLeft. " left to send";
+
+            Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : end.");
 
             return $aResult;
         }
@@ -2400,6 +2426,8 @@ class remotecontrol_handle
     */
     public function remind_participants($sSessionKey, $iSurveyID, $iMinDaysBetween=null, $iMaxReminders=null, $aTokenIds = false )
     {
+        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start.");
+
         Yii::app()->loadHelper('admin/token');
         if (!$this->_checkSessionKey($sSessionKey))
             return array('status' => 'Invalid session key');
@@ -2448,6 +2476,9 @@ class remotecontrol_handle
 
             $iLeft = $iAllTokensCount - count($aResultTokens);
             $aResult['status'] =$iLeft. " left to send";
+
+            Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : end.");
+
             return $aResult;
         }
         else

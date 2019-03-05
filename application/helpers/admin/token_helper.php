@@ -22,6 +22,8 @@
 */
 function emailTokens($iSurveyID,$aResultTokens,$sType)
 {
+	Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : start met aantal tokens : '".count($aResultTokens)."'");
+
 	Yii::app()->loadHelper('common');
 	$oSurvey = Survey::model()->findByPk($iSurveyID);
 	if (getEmailFormat($iSurveyID) == 'html')
@@ -46,8 +48,16 @@ function emailTokens($iSurveyID,$aResultTokens,$sType)
 		$aSurveyLocaleData[$rows['surveyls_language']]=$oTempObject;
 	}
 
+	//ATTENTIA LOG VARS
+	$attLogPreSendStart;
+	$attLogPreSendEnd;
+	$attLogPostSendStart;
+	$attLogPostSendEnd;
+
 	foreach ($aResultTokens as $aTokenRow)
 	{
+		$attLogPreSendStart = microtime(true);
+
 		//Select language
 		$aTokenRow['language'] = trim($aTokenRow['language']);
 		$found = array_search($aTokenRow['language'], $aSurveyLangs);
@@ -57,7 +67,6 @@ function emailTokens($iSurveyID,$aResultTokens,$sType)
 		}
 		$sTokenLanguage = $aTokenRow['language'];
 
-
 		//Build recipient
 		$to = array();
 		$aEmailaddresses = explode(';', $aTokenRow['email']);
@@ -65,7 +74,6 @@ function emailTokens($iSurveyID,$aResultTokens,$sType)
 		{
 			$to[] = ($aTokenRow['firstname'] . " " . $aTokenRow['lastname'] . " <{$sEmailaddress}>");
 		}
-
 
 		//Populate attributes
 		$fieldsarray["{SURVEYNAME}"] = $aSurveyLocaleData[$sTokenLanguage]['surveyls_title'];
@@ -164,8 +172,32 @@ function emailTokens($iSurveyID,$aResultTokens,$sType)
 		}
 		else
 		{
+			//ATTENTIA LOG START
+
+			$attLogPreSendEnd = microtime(true);
+
+			$attLogDuurtijdPreSendDezeMailInMilliSeconds = round(($attLogPreSendEnd - $attLogPreSendStart) *1000);
+			$attLogDuurtijdPostSendVorigeMailInMilliSeconds = 0;
+			$attLogPostMailnippet = "";
+
+			if (!is_null($attLogPostSendEnd))
+			{
+				$attLogDuurtijdPostSendVorigeMailInMilliSeconds = round(($attLogPostSendEnd - $attLogPostSendStart) *1000);
+				$attLogPostMailnippet = "en nabereiding vorige mail ($attLogDuurtijdPostSendVorigeMailInMilliSeconds)";
+			}
+			$attLogDuurtijdInMilliSeconds = $attLogDuurtijdPreSendDezeMailInMilliSeconds + $attLogDuurtijdPostSendVorigeMailInMilliSeconds;	
+						
+			$attLogPreMailSnippet = "duurtijd voorbereiding deze mail '$aEmailaddresses[0]' ($attLogDuurtijdPreSendDezeMailInMilliSeconds)";
+
+			Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : $attLogPreMailSnippet $attLogPostMailnippet. Totaal in milliSeconds : '".$attLogDuurtijdInMilliSeconds."'");
+			
+			//ATTENTIA LOG END
+
+			$attLogPostSendStart = microtime(true);
+
 			if (SendEmailMessage($modmessage, $modsubject, $to, $from, Yii::app()->getConfig("sitename"), $bHtml, getBounceEmail($iSurveyID), null, $customheaders))
 			{
+			   $attLogPostSendStart = microtime(true);
 			   $aResult[$aTokenRow['tid']] =  array('name'=>$fieldsarray["{FIRSTNAME}"]." ".$fieldsarray["{LASTNAME}"],
 													'email'=>$fieldsarray["{EMAIL}"],
 													'status'=>'OK');
@@ -183,17 +215,21 @@ function emailTokens($iSurveyID,$aResultTokens,$sType)
 			}
 			else
 			{
-
+			   $attLogPostSendStart = microtime(true);
 			   $aResult[$aTokenRow['tid']] =  array('name'=>$fieldsarray["{FIRSTNAME}"]." ".$fieldsarray["{LASTNAME}"],
 													'email'=>$fieldsarray["{EMAIL}"],
 													'status'=>'fail',
 													'error'=>$maildebug);
 			}
+
+			$attLogPostSendEnd = microtime(true);
 		}
 
 		unset($fieldsarray);
+
 	}
 
+	Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$iSurveyID'] : end.");
 
 	return $aResult;
 }

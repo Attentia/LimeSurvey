@@ -2820,7 +2820,7 @@ function SendEmailMessage($body, $subject, $to, $from, $sitename, $ishtml=false,
     }
 
     //ATTENTIA LOG START 1
-    Yii::log("ATTENTIA LOG : START MAIL aan '".print_r($to[0], true)."' met onderwerp '$mail->Subject'.");
+    Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__." MAIL START '".print_r($to[0], true)."' met onderwerp '$mail->Subject'.");
     $mailsendStart = microtime(true);    
     //ATTENTIA LOG EINDE 1
 
@@ -2829,7 +2829,7 @@ function SendEmailMessage($body, $subject, $to, $from, $sitename, $ishtml=false,
     //ATTENTIA LOG START 2
     $mailsendStop = microtime(true);
     $mailsendDuurInMilliSecs = round(($mailsendStop - $mailsendStart) * 1000);
-    Yii::log("ATTENTIA LOG : STOP MAIL aan '".print_r($to[0], true)."' met onderwerp '$mail->Subject'. Duur in milliSeconds : '$mailsendDuurInMilliSecs'.");
+    Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__." MAIL END '".print_r($to[0], true)."' met onderwerp '$mail->Subject'. Duur in milliSeconds : '$mailsendDuurInMilliSecs'.");
     //ATTENTIA LOG EINDE 2
 
     $maildebug=$mail->ErrorInfo;

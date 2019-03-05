@@ -513,17 +513,17 @@ class SurveyRuntimeHelper {
                     $move = "movenext"; // so will re-display the survey
                 }
                 else
-                {					
-						Yii::log("ATTENTIA LOG : session LEMpostKey stemt niet overeen met request LEMpostKey. SurveyId = {$surveyid}. PHPSessionId (cookie PHPSESSID) = ".session_id(), 'info', 'Application.Helpers.SurveyRunTimeHelper');
+                {		
+                    Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$surveyid']  : session LEMpostKey stemt niet overeen met request LEMpostKey. PHPSessionId (cookie PHPSESSID) = ".session_id());
 					
 					if(!isset($moveResult['seq'])) 
 					{
-						Yii::log('ATTENTIA LOG : $moveResult[\'seq\'] is NIET gezet', 'info', 'Application.Helpers.SurveyRunTimeHelper');	
+                        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$surveyid']  : ".'$moveResult[\'seq\'] is NIET gezet');
 					}
 					else 
 					{
-						Yii::log('ATTENTIA LOG : $moveResult[\'seq\'] = '.$moveResult['seq'], 'info', 'Application.Helpers.SurveyRunTimeHelper');	
-						Yii::log('ATTENTIA LOG : App()->request->getPost(\'thisstep\',$moveResult[\'seq\']) = '.App()->request->getPost('thisstep',$moveResult['seq']), 'info', 'Application.Helpers.SurveyRunTimeHelper');
+                        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$surveyid']  : ".'$moveResult[\'seq\'] = '.$moveResult['seq']);
+                        Yii::log("ATTENTIA LOG ".__CLASS__.".".__FUNCTION__.".".__LINE__."[surveyId '$surveyid']  : ".'App()->request->getPost(\'thisstep\',$moveResult[\'seq\']) = '.App()->request->getPost('thisstep',$moveResult['seq']));
 					}
 	
                     // trying to use browser back buttons, which may be disallowed if no 'previous' button is present
