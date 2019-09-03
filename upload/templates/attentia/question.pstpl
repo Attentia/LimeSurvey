@@ -1,0 +1,18 @@
+<fieldset {QUESTION_ESSENTIALS}>
+    <section class="form-group {QUESTION_CLASS}{QUESTION_MAN_CLASS} {if(!is_empty(QUESTION_INPUT_ERROR_CLASS),' has-error','')}">
+        <label class="control-label">
+            {if(!is_empty(QUESTION_MANDATORY),"<span class='required' style='display:none;'>"+QUESTION_MANDATORY+"</span>","")}
+            {if(!is_empty(QUESTION_CODE),"<span class='question-code'>("+QUESTION_CODE+")</span>","")}
+            {if(!is_empty(QUESTION_NUMBER),"<span class='question-number'>"+QUESTION_NUMBER+"</span>","")}
+          {QUESTION_TEXT}
+          {if(!is_empty(QUESTION_VALID_MESSAGE),"<div class='text-success'>"+QUESTION_VALID_MESSAGE+"</div>","")}
+
+        </label>
+        <div class="answer">
+            {ANSWER}
+
+        </div>
+        {if(!is_empty(trim(strip_tags(QUESTIONHELP))),"<div class='survey-question-help tag-box tag-box-v3 margin-bottom-40'><div class='pull-left'><h2 data-language='fr'>Information</h2><h2 data-language='en'>Information</h2><h2 data-language='nl'>Informatie</h2>"+QUESTIONHELP+"</div><i class='fa fa-question-circle fa-5x pull-right'></i></div>","")}        
+        {if(!is_empty(QUESTION_MAN_MESSAGE), QUESTION_MAN_MESSAGE, "")}
+    </section>
+</fieldset>

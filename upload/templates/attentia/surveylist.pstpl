@@ -1,0 +1,18 @@
+<div class="jumbotron survey-list-table">
+	<h1 class="site-name">{SITENAME}</h1>
+	<p>{SURVEYLISTHEADING}</p>
+	<p>
+		<ul>{SURVEYLIST}</ul>
+	</p>
+	<p class="text-muted survey-contact">{SURVEYCONTACT}</p>
+</div>
+
+<script>
+  <!-- Make sure the page of the survey get's redirected to the root -->
+  <!-- But only when the location is not already the root to avoid endless loops -->
+  var root = window.location.protocol + '//' + window.location.host;
+
+  if(root !== window.location.href){
+    window.location = root;
+  }
+</script>

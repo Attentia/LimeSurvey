@@ -1,0 +1,81 @@
+<title>{SURVEYNAME} {GROUPNAME}</title>
+
+<meta name="generator" content="LimeSurvey http://www.limesurvey.org" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="language" content="{SURVEYLANGUAGE}" />
+<meta name="templateurl" content="{TEMPLATEURL}" />
+
+<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+
+  {TEMPLATEJS}
+
+  <link rel="shortcut icon" href="{TEMPLATEURL}favicon.ico" />
+  {GOOGLE_ANALYTICS_JAVASCRIPT}
+  <link href="{TEMPLATEURL}index-0d064c4c7c5d08fb724cb561853a0b00.css" rel="stylesheet"><link href="{TEMPLATEURL}index-ba498b73dc42096c3b93e4f5ce283e4a.css" rel="stylesheet"></head>
+
+  <body class="lang-{SURVEYLANGUAGE} {SURVEYFORMAT} header-fixed loading" data-spy="scroll" data-target=".one-page-header">
+    {CHECKJAVASCRIPT}
+
+    <div class="header-v6 header-dark-transparent header-sticky">
+      <!-- Navbar -->
+      <div class="navbar mega-menu" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container">
+            <div class="row">
+              <div class="col-md-12">
+                <!-- Navbar Brand -->
+                <div class="navbar-brand">
+                  <a href="#" data-scroll-top="true">
+                    <img class="default-logo" src="{TEMPLATEURL}images/logo.png" alt="Logo" data-pin-nopin="true" height="25" />
+                    <img class="shrink-logo" src="{TEMPLATEURL}images/logo.png" alt="Logo" height="25" />
+                  </a>
+                </div>
+                <!-- ENd Navbar Brand -->
+                <div class="new-language-switcher language-switcher pull-right">
+                  
+                </div>
+                <div class="old-language-switcher language-switcher pull-right">
+                  {LANGUAGECHANGER}
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 survey-progress text-center">
+                {PERCENTCOMPLETE}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+    </div>
+
+    <div id="owlSlider" class="owl-carousel slider">
+      <!-- The contents on your slider will be here -->
+      <!-- first slide -->
+      <div class="item img-v19 dark-slide">
+        <!-- slide contents goes here -->
+        <div class="container">
+          <h1>Self Assessment</h1>
+        </div>
+      </div>
+
+      <!-- second slide -->
+      <div class="item img-v7 dark-slide">
+        <!-- slide contents goes here -->
+        <div class="container">
+          <h1>Self Assessment</h1>
+        </div>
+      </div>
+
+      <!-- second slide -->
+      <div class="item img-v25 dark-slide">
+        <!-- slide contents goes here -->
+        <div class="container">
+          <h1>Self Assessment</h1>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="{TEMPLATEURL}vendor.6ec3b1a0270109a36455.js"></script><script type="text/javascript" src="{TEMPLATEURL}main.2f3ceb8ae15b812517ef.js"></script>

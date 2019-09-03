@@ -1,0 +1,4 @@
+<div class="jumbotron privacy">
+    <h2>Privacy</h2>
+    {PRIVACYMESSAGE}
+</div>

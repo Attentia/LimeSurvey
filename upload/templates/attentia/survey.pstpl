@@ -1,0 +1,16 @@
+<div>
+  <div class="container">
+    {CHECKJAVASCRIPT}
+
+    <div class="row survey-heading ">
+      <div class="col-md-8 surveyname">
+        <!--<h1>{SURVEYNAME}</h1>-->
+
+      </div>
+    </div>
+  </div>
+  <!-- end .content -->
+</div>
+<div class="container">
+
+

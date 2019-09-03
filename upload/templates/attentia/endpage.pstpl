@@ -1,0 +1,620 @@
+<div class="footer-v1 sa-footer">
+
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            2016 - 2017 &copy; All Rights Reserved.
+            <a href="#" data-modal="modal-privacy-policy" data-language="nl">Privacybeleid</a> <a href="#" data-modal="modal-privacy-policy" data-language="fr">Vie privée</a> <a href="#" data-modal="modal-privacy-policy" data-language="en">Privacy Policy</a> | <a href="#" data-modal="modal-disclaimer" >Disclaimer</a>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/copyright-->
+</div>
+
+<div class="modal fade" id="modal-alert" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="fr">Fermer</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="nl">Sluiten</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="en">Close</button>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+
+
+
+<div class="modal fade" id="modal-privacy-policy" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" data-language="fr">Vie privée</h4>
+        <h4 class="modal-title" data-language="nl">Privacy Policy</h4>
+        <h4 class="modal-title" data-language="en">Privacy Policy</h4>
+      </div>
+      
+      <!-- French content -->
+      <div class="modal-body" data-language="fr">
+        <p>L'application web DOTS, y compris les sous-pages et sous-domaines (ci-après « Application web »), est gérée par Attentia Prévention &amp; Protection asbl ayant son siège social à 1082 Sainte-Agathe-Berchem, Avenue Charles Quint, boîte 1, à contacter via info@attentia.be, ou moyennant un courrier adressé à Attentia Prévention &amp; Protection, à l'att. du département Customer Services, Avenue Charles Quint, boîte 1, B-1082 Sainte-Agathe-Berchem.</p>
+        <p>Nous attachons beaucoup d'importance au respect de votre vie privée. Il est possible qu’Attentia collecte des données personnelles aux utilisateurs via son Application web. Dans ce cas, les données sont toujours traitées conformément aux dispositions de la loi du 8 décembre 1992 relative au traitement de données à caractère personnel (ci-après « loi sur la vie privée », consultable sur le site www.privacycommission.be).</p>
+        <p>Toutes les données à caractère personnel (y compris les données relatives à la santé) que vous complétez par le biais de la présente enquête en ligne, seront traitées par Attentia Prévention & Protection asbl, dont le siège social est établi à Avenue Charles Quint 584, 1082 Sainte-Agathe-Berchem sur l’ordre de votre employeur, sont traitées en vue du respect des obligations en matière de droit du travail reprises à l’article 4 de l’Arrêté Royal du 29 août 1993 relatif au travail sur écran de visualisation.</p>
+        <p>Par la présente Politique de protection de la vie privée, Attentia vous informe le plus complètement possible sur la manière dont sont gérées les données personnelles que vous nous communiquez via l'Application web. La présente Politique de protection de la vie privée décrit entre autres qui est responsable du traitement des données personnelles, la façon dont les données personnelles sont traitées, ce qu'Attentia en fait et la manière dont vous pouvez exercer un contrôle sur celles-ci. </p>
+        <p>Si vous souhaitez des informations ou des explications complémentaires à propos de la présente Politique de protection de la vie privée ou concernant notre politique de confidentialité en général, nous vous prions de contacter le gestionnaire de l'Application web.</p>
+        <h2>Responsable du traitement des données personnelles</h2>
+        <p>Attentia Prévention & Protection asbl est responsable du traitement de vos données personnelles (ici « Attentia », « nous », « notre » ou « nos ») (dans le sens de l'art. 1, § 4 de la Loi sur la vie privée) recueillies via l'Application web.</p>
+        <h2>Façon dont les données personnelles sont recueillies et traitées par Attentia</h2>
+        <p>Afin de pouvoir utiliser certains services proposés via l'Application web, vous devez, le cas échéant, nous fournir certaines données personnelles et médicales.</p>
+        <p>Les données fournies sont recueillies et traitées sur la base de formulaires électroniques à remplir. Les données fournies sont recueillies et traitées sur la base de formulaires électroniques à remplir. </p>
+        <p>Les données collectées par Attentia via l'Application web sont communiquées volontairement par vos soins. Vous n'êtes aucunement tenu de fournir ces données. </p>
+        <p>La communication de certaines données personnelles peut toutefois s'avérer indispensable pour pouvoir utiliser certains services.</p>
+        <p>L’Application web utilise aussi des cookies qui collectent certaines informations lorsque vous visitez l'Application web. Nous référons à notre déclaration en matière de cookies pour plus d'informations sur les cookies utilisés et vos droits à cet égard.</p>
+        <h2>Ce qu'Attentia fait avec ces données - finalités du traitement</h2>
+        <p>Les données personnelles collectées via l'Application web sont uniquement traitées par Attentia à l'une ou à plusieurs des finalités suivantes : </p>
+        <ul>
+          <li>
+            l'enregistrement et l'utilisation de services proposés via l'Application web, dont les services fixés contractuellement avec votre employeur
+          </li>
+          <li>
+            la rédaction d’un rapport reprenant les résultats collectifs des enquêtes complétées par les travailleurs de votre employeur (et par conséquent, par vos soins également);
+          </li>
+          <li>
+            Transmettre les résultats collectifs à votre employeur et par suite au Comité pour la prévention et la protection au travail;
+          </li>
+          <li>
+            le traitement des données à caractère personnel (y compris les données relatives à la santé) complétées par vos soins par le biais de l’enquête afin de vous remettre un rapport comprenant des conseils individuels et personnels relatif au travail sur écran de visualisation;
+          </li>
+          <li>
+            le traitement de manière codée des données à caractère personnel (y compris les données relatives à la santé) complétées par vos soins par le biais de l’enquête à des fins statistiques pour, de la sorte, fournir un avis global complémentaire à votre employeur, à sa demande.
+          </li>
+        </ul>
+        <h2>Propriété et communication de données personnelles à des tiers</h2>
+        <p>
+          Toutes les données personnelles qui sont collectées via l'Application web seront uniquement utilisées conformément aux principes et modalités stipulés dans la présente Politique de protection de la vie privée.
+        </p>
+        <p>
+          Attentia veille ce que le traitement ait toujours lieu conformément à la réglementation Européenne.
+        </p>
+        <p>
+          Conformément à la législation et à la réglementation applicables, nous pouvons également transmettre des données personnelles à la police, à la justice et à d'autres instances désignées par la loi à cet effet si nous le jugeons raisonnablement nécessaire pour protéger nos droits ou les droits des autres et pour imposer le respect des dispositions et conditions stipulées sur notre Application web.
+        </p>
+        <h2>
+          Droit à l'accès à vos données personnelles et correction de celles-ci
+        </h2>
+        <p>Vous avez en permanence la possibilité de vérifier – gratuitement – l'état de vos données personnelles collectées et traitées par Attentia, en nous envoyant un e-mail à ce sujet via info@attentia.be ou en nous adressant un courrier à l'adresse suivante : Attentia Prévention & Protection, à l'att. du département Customer Services, Avenue Charles Quint, boîte 1, B-1082 Sainte-Agathe-Berchem.</p>
+        <p>Après avoir contrôlé votre identité, Attentia vous communique cet état le plus vite possible. </p>
+        <p>En cas d'erreur, d'inexactitude ou de lacunes concernant vos données personnelles, vous pouvez nous demander de corriger ou de modifier ces renseignements.</p>
+        <h2>Suppression de vos données personnelles</h2>
+        <p>Si vous souhaitez que vos données personnelles soient supprimées de notre fichier de données, il suffit de nous contacter par e-mail (info@attentia.be) ou par courrier (Attentia Prévention & Protection, à l'att. du département Customer Services, Avenue Charles Quint, boîte 1, B-1082 Sainte-Agathe-Berchem). Nous nous engageons, après contrôle de votre identité, à procéder le plus vite possible à cette suppression, sauf évidemment des données devant être conservées en vertu de la loi ou en vertu d'un contrat.</p>
+        <h2>Autorisation et modifications</h2>
+        <p>
+          Par la simple communication de vos données via l'Application web, vous déclarez accepter notre politique de confidentialité telle qu'exposée dans la présente Politique de protection de la vie privée.
+        </p>
+        <p>
+          Nous nous réservons toutefois le droit de modifier à tout moment la présente Politique de protection de la vie privée.
+        </p>
+      </div>
+
+      <!-- Dutch content -->
+      <div class="modal-body" data-language="nl">
+        <p>De webapplicatie DOTS, inclusief subpagina’s en subdomeinen (hierna “Webapplicatie” genoemd) wordt beheerd door Attentia Preventie & Bescherming vzw. met maatschappelijke zetel te 1082 Sint-Agatha-Berchem, Keizer Karellaan 584 bus 1, te contacteren via info@attentia.be, of middels schrijven gericht aan Attentia Preventie & Bescherming, t.a.v. de afdeling Customer Services, Keizer Karellaan 584, B-1082 Sint-Agatha-Berchem.</p>
+        <p>Wij hechten veel belang aan de eerbiediging van uw persoonlijke levenssfeer. Indien Attentia via de Webapplicatie persoonsgegevens over U verzamelt, zal de verwerking ervan steeds gebeuren in overeenstemming met de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (hierna “Privacywet”; raadpleegbaar via www.privacycommission.be).</p>
+        <p>Alle persoonsgegevens (inclusief gezondheidsgegevens), die u via deze webapplicatie invult, zullen door Attentia, in opdracht van uw werkgever, worden verwerkt met het oog op de naleving van de verplichtingen inzake arbeidsrecht opgenomen in artikel 4 van het Koninklijk Besluit van 29 augustus 1993 betreffende het werken met beeldschermapparatuur.</p>
+        <p>Via deze Privacyverklaring tracht Attentia U zo volledig mogelijk te informeren betreffende de wijze waarop wordt omgegaan met de persoonsgegevens die U ons meedeelt via de Webapplicatie. In deze Privacyverklaring wordt onder meer uiteengezet wie verantwoordelijk is voor de verwerking van de persoonsgegevens, op welke wijze de persoonsgegevens worden verwerkt, wat Attentia met de gegevens doet en hoe U hierop controle kan uitoefenen.</p>
+        <p>Indien U alsnog bijkomende informatie of toelichting wenst bij deze Privacyverklaring of ons privacybeleid in het algemeen, verzoeken wij U vriendelijk contact op te nemen met de beheerder van de Webapplicatie.</p>
+        <h2>Verantwoordelijke voor de verwerking van de persoonsgegevens</h2>
+        <p>Attentia Preventie & Bescherming vzw is verantwoordelijk voor de verwerking van uw gegevens (hierin "Attentia", "wij", "ons" of "onze") (in de zin van art. 1, §4 van de Privacywet) van de via de Webapplicatie verzamelde persoonsgegevens.</p>
+        <h2>Wijze waarop de persoonsgegevens door Attentia worden verzameld en verwerkt</h2>
+        <p>
+          Om gebruik te kunnen maken van bepaalde diensten aangeboden via de Webapplicatie, dient U ons desgevallend bepaalde persoons- en medische gegevens te verstrekken.
+        </p>
+        <p>
+          De gegevens worden verzameld en verwerkt op basis van elektronische invulvelden.
+        </p>
+        <p>
+          De gegevens die Attentia verzamelt via de Webapplicatie, worden door U op vrijwillige basis meegedeeld. U wordt op geen enkele wijze verplicht om de gegevens te verstrekken.
+        </p>
+        <p>
+          Het meedelen van bepaalde persoonsgegevens kan evenwel noodzakelijk zijn om van bepaalde diensten gebruik te kunnen maken.
+        </p>
+        <p>
+          De Webapplicatie maakt tevens gebruik van cookies die bepaalde informatie verzamelen wanneer U de Webapplicatie gebruikt. Wij verwijzen naar onze cookieverklaring voor meer informatie over de gebruikte cookies en uw rechten in dat verband.
+        </p>
+        <h2>
+          Wat Attentia met deze gegevens doet – doeleinden van de verwerking
+        </h2>
+        <p>
+          De via de Website verzamelde persoonsgegevens worden door Attentia louter verwerkt met het oog op één of meer van volgende doeleinden:
+        </p>
+        <ul>
+          <li>
+            registratie en gebruik van via de Webapplicatie aangeboden diensten, waaronder de diensten zoals contractueel vastgelegd met uw werkgever;
+          </li>
+          <li>
+            opmaken van een rapport met daarin de collectieve resultaten van alle door de werknemers van uw werkgever (en dus ook door u) ingevulde vragen;
+          </li>
+          <li>
+            overmaken van de collectieve resultaten aan uw werkgever en nadien ook aan het Comité voor Preventie en Bescherming op het Werk;
+          </li>
+          <li>
+            verwerken van de via de vragenlijst ingevulde persoonsgegevens (inclusief gezondheidsgegevens) om uzelf een rapport te bezorgen met een geïndividualiseerd en persoonlijk advies rond het werken met beeldschermapparatuur;
+          </li>
+          <li>
+            op gecodeerde wijze verder verwerken van de via de vragenlijst ingevulde persoonsgegevens (inclusief gezondheidsgegevens) voor statistische doeleinden om op die manier aan uw werkgever, op diens verzoek, een bijkomend globaal advies te bezorgen.
+          </li>
+        </ul>
+        <h2>Eigendom en mededeling van persoonsgegevens aan derden</h2>
+        <p>Alle persoonsgegevens die via de Webapplicatie worden verzameld, zullen enkel gebruikt worden in overeenstemming met de principes en modaliteiten vervat in huidige Privacyverklaring.</p>
+        <p>Attentia draagt er zorg voor dat verwerking steeds gebeurt conform de Europese regelgeving.</p>
+        <p>Conform de toepasselijke wet- en regelgeving kunnen wij eveneens persoonsgegevens doorgeven aan politie en justitie en andere door de wet daartoe aangewezen instanties wanneer wij dit redelijkerwijze nodig achten om onze rechten of de rechten van anderen te beschermen en om de naleving af te dwingen van de bepalingen en voorwaarden op onze Webapplicatie.</p>
+        <h2>Recht op toegang tot en verbetering van uw persoonsgegevens</h2>
+        <p>
+          U bent voortdurend in de mogelijkheid om – kosteloos – de staat van uw persoonsgegevens verzameld en verwerkt door Attentia na te gaan, indien U ons daaromtrent een e‐mail stuurt via info@attentia.be of ons een schrijven richt op volgend adres: Attentia Preventie & Bescherming, t.a.v. de afdeling Customer Services, Keizer Karellaan 584, B-1082 Sint-Agatha-Berchem.
+        </p>
+        <p>
+          Nadat Attentia uw identiteit heeft gecontroleerd, deelt Attentia U deze staat zo spoedig mogelijk mee.
+        </p>
+        <p>
+          In geval van een vergissing, onjuistheid of onvolledigheid met betrekking tot uw persoonsgegevens, kan U ons uiteraard verzoeken deze inlichtingen te verbeteren of te wijzigen.
+        </p>
+        <h2>Verwijdering van uw persoonsgegevens</h2>
+        <p>
+          Indien U wenst dat uw persoonsgegevens worden verwijderd uit ons gegevensbestand, volstaat het dat U ons per e‐mail (info@attentia.be) of per post (Attentia Preventie & Bescherming, t.a.v. de afdeling Customer Services, Keizer Karellaan 584, B-1082 Sint-Agatha-Berchem) contacteert. Wij verbinden ons ertoe om, na controle van uw identiteit, zo spoedig mogelijk over te gaan tot deze verwijdering, behalve uiteraard van die gegevens die krachtens de wet of krachtens een overeenkomst moeten worden bewaard.
+        </p>
+        <h2>Toestemming en wijzigingen</h2>
+        <p>
+          Door loutere mededeling van uw gegevens via de Webapplicatie, verklaart U akkoord te gaan met ons privacybeleid zoals uiteengezet in huidige Privacyverklaring.
+        </p>
+        <p>
+          Wij behouden ons evenwel het recht voor om deze Privacyverklaring te allen tijde te wijzigen.
+        </p>
+      </div>
+
+      <!-- English content -->
+      <div class="modal-body" data-language="en">
+        <p>The DOTS web application, including its sub-pages and sub-domains (hereinafter, the “web application”), is managed by Attentia Prevention & Protection ASBL, whose registered office is located at 1082 Berchem-Sainte-Agathe, Avenue Charles Quint, Box 1, contact at info@attentia.be, or by letter to Attentia Prevention & Protection, attn. Department of Customer Services, Avenue Charles Quint, Box 1, B-1082 Berchem-Sainte-Agathe.</p>
+        <p>We attach great importance to respecting your privacy. It is possible that Attentia will collect the personal data of users through its web application. In such cases, the data is always processed in accordance with the Act of 8 December 1992 concerning the processing of personal data (the “Privacy Act”, available at www.privacycommission.be).</p>
+        <p>All personal data (including health-related data) that you complete through this online survey will be processed by Attentia Prevention & Protection ASBL, whose registered office is in Avenue Charles Quint 584, 1082 Berchem-Sainte-Agathe, as per your employer’s instructions, in compliance with the obligations of labour law contained in Article 4 of the Royal Decree of 29 August 1993 concerning work on a display screen.</p>
+        <p>Through this Privacy Protection Policy, Attentia informs you as fully as possible about how the personal data you provide via the web application is managed. This Privacy Protection Policy describes, among other things, who is responsible for the processing of personal data, how the personal data is processed, what Attentia actually does with it and how you can exercise control thereon.</p>
+        <p>If you would like information or explanations about this Privacy Protection Policy or about our confidentiality policy in general, please contact the manager of the web application.</p>
+        <h2>Responsible party for the processing of personal data</h2>
+        <p>The Attentia Prevention & Protection ASBL is responsible for the processing of your personal data (hereinafter, "Attentia", and alternatively, "we", "us" or "our") (within the meaning of Art. 1, §4 of the Privacy Act) collected through the web application.</p>
+        <h2>How the personal data is collected and processed by Attentia</h2>
+
+        <p>In order to use certain services offered in the web application, you must, if necessary, provide certain personal and medical data.</p>
+        <p>The data is collected and processed on the basis of electronic forms to be filled out. The data is collected and processed on the basis of electronic forms to be filled out.</p>
+        <p>The data collected by Attentia using the web application is voluntarily provided by you. You are under no obligation to provide such data.</p>
+        <p>The communication of certain personal data may nevertheless be necessary to use certain services.</p>
+        <p>The web application also uses cookies that collect certain information when you visit the web application. We refer you to our statement regarding cookies for more information about the cookies used and your rights in this regard.</p>
+
+        <h2>What Attentia does with your data - processing purposes</h2>
+        <p>The personal data collected by the web application will only be processed by Attentia for one or more of the following purposes:</p>
+        <ul>
+          <li>
+            the registration and the use of services offered on the web application, including the services established by contract with your employer
+          </li>
+          <li>
+            the drafting of a report with the collective results of the surveys completed by your employer’s workers (and therefore also by you);
+          </li>
+          <li>
+            the transmission of the collective results to your employer and, thus, to the Committee for the Prevention and Protection at Work;
+          </li>
+          <li>
+            the processing of personal data (including health-related data) completed by you through the survey to give you a report including individual and personal advice concerning work on a display screen;
+          </li>
+          <li>
+            the processing in a coded manner for statistical purposes of the personal data (including health-related data) that you completed through the survey, thus providing an additional overall view to your employer, upon its request.
+          </li>
+        </ul>
+
+        <h2>Property and communication of personal data to third parties</h2>
+        <p>All personal data collected through the web application will only be used in accordance with the principles and conditions set forth in this Privacy Protection Policy.</p>
+        <p>Attentia ensures that the processing is always conducted in accordance with European regulations.</p>
+        <p>In accordance with the law and applicable regulations, we can also transmit personal data to the police, justice and other bodies designated by law for this purpose if we deem this reasonably necessary to protect our rights or the rights of others and to enforce compliance with the provisions and conditions set forth on our web application.</p>
+        <h2>
+          Right to access and correct your personal data
+        </h2>
+        <p>You have the perennial right to check - for free - the status of your personal data collected and processed by Attentia, by sending an e-mail about it to info@attentia.be or by sending a letter to the following address: Attentia Prevention & Protection, attn. Department of Customer Services, Avenue Charles Quint, Box 1, B-1082 Berchem-Sainte-Agathe.</p>
+        <p>After checking your identity, Attentia will communicate this status as soon as possible.</p>
+        <p>In the event of errors, inaccuracies or gaps in your data, you can ask us to correct or change the information.</p>
+
+        <h2>Deleting your personal data</h2>
+        <p>If you want your personal information deleted from our data file, simply contact us by email (info@attentia.be) or by post (Attentia Prevention & Protection, attn. Department of Customer Services, Avenue Charles Quint, Box 1, B-1082 Berchem-Sainte-Agathe). We are committed, after checking your identity, to proceed as quickly as possible to this deletion, unless, of course, the data must be retained under law or by contract.</p>
+        <h2>Licensing and modifications</h2>
+        <p>
+          By means of the simple communication of your data through the web application, you accept our privacy policy as set forth in this Privacy Protection Policy.
+        </p>
+        <p>
+          However, we reserve the right to modify this Privacy Protection Policy at any time.
+        </p>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="fr">Fermer</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="nl">Sluiten</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="en">Close</button>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="modal-disclaimer" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Disclaimer</h4>
+      </div>
+      <!-- French content -->
+      <div class="modal-body" data-language="fr">
+        <p>
+          Les conditions pour l'utilisation de l'Application web DOTS sont définies par Attentia Prévention &amp; Protection asbl (ci-dessous conjointement dénommée « Attentia », « nous », « notre », « nos ») dans la présente clause de non-responsabilité.
+          L'application web DOTS, y compris les sous-pages et sous-domaines (ci-après « Application web »), est gérée par Attentia Prévention &amp; Protection asbl ayant son siège social à 1082 Sainte-Agathe-Berchem, Avenue Charles Quint, boîte 1, à contacter via info@attentia.be, ou moyennant un courrier adressé à Attentia Prévention & Protection, à l'att. du département Customer Services, Avenue Charles Quint, boîte 1, B-1082 Sainte-Agathe-Berchem.
+        </p>
+        <p>
+          En utilisant cette Application web, vous avez pris connaissance de la présente clause de non-responsabilité et en acceptez les conditions. N’utilisez pas cette Application web si vous n’acceptez pas les conditions d’utilisation.
+        </p>
+        <p>
+          Attentia accorde beaucoup d’attention et de soin à son Application web et veille à ce que toutes les informations soient aussi complètes, exactes, compréhensibles, précises et actuelles que possible. Pour l’information sociojuridique, seules des sources fiables sont utilisées.
+        </p>
+        <p>
+          En dépit de tous les efforts fournis en permanence, Attentia n'apporte aucune garantie concernant l'exactitude, l'exhaustivité, la précision ou l'actualisation des informations mises à disposition. Attentia rejette toute responsabilité en cas d’éventuelles imperfections et se réserve le droit d’adapter le contenu de l'Application web.
+        </p>
+        <p>
+          Si des informations fournies sur (ou via) l'Application web contiennent des imperfections, nous nous efforcerons de les corriger dans les plus brefs délais.
+          Si vous constatez des imperfections, vous pouvez prendre contact avec le gestionnaire de l'Application web.
+        </p>
+        <p>
+          Attentia met tout en œuvre afin d'éviter le plus possible d'interruptions de nature technique et communiquera toujours ouvertement à ce sujet avec ses clients.
+        </p>
+        <h2>Hyperliens et références</h2>
+        <p>Attentia n'a pas de contrôle sur le contenu ou les aspects techniques de quelconque site web de tiers sur lesquels vous êtes renvoyé en cliquant sur des hyperliens figurant dans la présente Application web. Tels hyperliens vous sont proposés purement pour votre facilité et leur utilisation est à vos propres risques. La présence de ces hyperliens ne signifie pas qu'Attentia approuverait ou accepterait ces sites (ou leur contenu ou utilisation). Par conséquent, Attentia rejette toute responsabilité en cas de dommage direct ou indirect résultant de la consultation ou de l'utilisation de tels sites. </p>
+        <h2>Services en ligne </h2>
+        <p>Attentia rejette toute responsabilité en cas d'utilisation impropre de l’Application web par l'utilisateur.</p>
+        <h2>Cookies</h2>
+        <p>
+          Les cookies sont de petits fichiers texte stockés sur votre ordinateur ou appareil mobile lorsque vous consultez notre Application web. Nous faisons référence à notre déclaration en matière de cookies pour davantage d'informations détaillées relatives à <a href="#" data-modal="modal-cookie-policy" data-dismiss="modal">notre politique de cookies</a>. </p>
+        <h2>Vie privée</h2>
+        <p>Nous attachons une grande importance au respect de la vie privée de nos clients. Nous faisons référence à notre Politique de protection de la vie privée pour davantage d'informations détaillées relatives à notre politique de confidentialité. </p>
+        <h2>Attitude des visiteurs</h2>
+        <p>
+          Les visiteurs de notre Application web s'engagent à s'abstenir de : (I) via ou par l'Application web, transmettre toute information, données, texte, fichiers, liens, logiciel, chats, communication ou autres données pouvant être considéré(e)s par Attentia comme contenu dommageable, illégal, menaçant, injurieux, diffamatoire, vulgaire, obscène, raciste ou inacceptable ; (II) envoyer ou tenter d'envoyer tout virus, cheval de Troie ou autre moyen dans le but d'endommager ou de détruire du logiciel ; (III) d'enfreindre intentionnellement ou non toute loi ou réglementation en vigueur ; et (IV) porter atteinte à la vie privée ou tout droit personnel (y compris les droits de propriété intellectuelle) de toute personne (juridique).
+          En tout temps, Attentia peut, pour quel motif que ce soit, bloquer et/ou suspendre votre accès à l'Application web (ou à certaines parties de celle-ci).
+        </p>
+        <h2>Droits de propriété intellectuelle</h2>
+        <p>
+          La présente Application web et l'intégralité de son contenu sont protégées par le droit d'auteur. Vous avez le droit de consulter l'information sur cette Application web pour utilisation personnelle, uniquement conformément avec les dispositions de la loi du 30 juin 1994 relative au droit d'auteur et aux droits voisins, pour autant que cette consultation soit conforme à une utilisation personnelle normale de l'information. Le droit à l'utilisation peut seulement être utilisé pour des objectifs informatifs, et à l’exclusion de toute multiplication, distribution, commercialisation ou exploitation par des tiers.
+          Le droit d'usage personnel susmentionné ne s'applique pas aux textes et/ou outils qui mentionnent explicitement les limitations d'utilisation. Une approbation préalable d'Attentia est requise pour toute reproduction ou utilisation des multimédia (son, image, logiciel, et autres…) et Attentia conserve en tout cas et en tout temps les droits de propriété intellectuelle sur l'Application web.
+        </p>
+        <h2>Limitation de la responsabilité</h2>
+        <p>
+          Vous acceptez expressément que l'utilisation de l'Application web est à vos propres risques.
+        </p>
+        <p>
+          Notre Application web peut également contenir des faits, opinions, points de vue, déclarations et recommandations de tiers. Attentia ne garantit nullement l'exactitude, ou la fiabilité de tout avis, opinion, déclaration, ou autre information reproduite, téléchargée ou diffusée via l'Application web. Vous reconnaissez que si vous vous fiez à tel(le) opinion, déclaration, avis ou information, vous le faites à vos propres risques.
+        </p>
+        <p>
+          Toutes limitations et/ou exclusions de responsabilité ne s'appliquent que si et pour autant que le droit belge l'autorise.
+        </p>
+      </div>
+      
+      <!-- Duch content-->
+      <div class="modal-body" data-language="nl">
+        <p>
+          Attentia Preventie & Bescherming vzw (hierna gezamenlijk "Attentia", "wij", "ons" of "onze") bepaalt in deze disclaimer de voorwaarden voor het gebruik van de webapplicatie DOTS.
+          De webapplicatie DOTS, inclusief subpagina’s en subdomeinen (hierna “Webapplicatie” genoemd) wordt beheerd door Attentia Preventie & Bescherming vzw. met maatschappelijke zetel te 1082 Sint-Agatha-Berchem, Keizer Karellaan 584 bus 1, te contacteren via info@attentia.be, of middels schrijven gericht aan Attentia Preventie & Bescherming, t.a.v. de afdeling Customer Services, Keizer Karellaan 584, B-1082 Sint-Agatha-Berchem.
+        </p>
+        <p>
+          Door gebruik te maken van deze Webapplicatie, wordt U geacht kennis te hebben genomen van deze voorwaarden en ze te aanvaarden. Indien u niet akkoord gaat, maak dan geen gebruik van deze Webapplicatie.
+        </p>
+        <p>Attentia besteedt veel aandacht en zorg aan deze Webapplicatie en streeft ernaar alle informatie zo volledig, juist, begrijpelijk en actueel mogelijk weer te geven en voor de sociaaljuridische informatie enkel betrouwbare bronnen aan te wenden.</p>
+        <p>
+          Ondanks alle voortdurend geleverde inspanningen kan Attentia echter niet garanderen dat de ter beschikking gestelde informatie altijd volledig, juist en bijgewerkt is. Attentia wijst dan ook enige aansprakelijkheid voor onvolkomenheden af en behoudt zich het recht voor te allen tijde zonder kennisgeving de inhoud van de Webapplicatie (hyperlinks inbegrepen) aan te passen en/of te verwijderen.
+        </p>
+        <p>
+          Indien de op (of via) de Webapplicatie verstrekte informatie tekortkomingen vertoont, zullen wij alle redelijke inspanning leveren om dit zo snel mogelijk te corrigeren.
+          Als U onjuistheden vaststelt, kan U contact opnemen met de beheerder van de Webapplicatie.
+        </p>
+        <p>
+          ATTENTIA spant zich in om onderbrekingen van technische aard zo veel mogelijk te voorkomen en zal hierover steeds op een open manier communiceren met haar klanten.
+        </p>
+        <h2>
+          Hyperlinks en verwijzingen
+        </h2>
+        <p>
+          Attentia heeft geen enkele controle over de inhoud of technische aspecten van enige website van derden waarnaar U met hyperlinks op deze Webapplicatie wordt doorverwezen. Dergelijke hyperlinks worden louter aangeboden voor uw gebruiksgemak en gebruik ervan is op eigen risico. De aanwezigheid van deze hyperlinks betekent niet dat Attentia deze sites (of de inhoud of het gebruik ervan) zou goedkeuren of aanvaarden. Attentia aanvaardt derhalve geen aansprakelijkheid voor rechtstreekse of onrechtstreekse schade die zou voortvloeien uit het raadplegen of het gebruik ervan.
+        </p>
+        <h2>Online diensten</h2>
+        <p>Attentia wijst elke aansprakelijkheid af die voortvloeit uit het oneigenlijk gebruik van de Web applicatie door een gebruiker.</p>
+        <h2>Cookies</h2>
+        <p>
+          Cookies zijn kleine tekstbestanden die op uw computer of mobiel apparaat kunnen worden geplaatst wanneer U onze Webapplicatie bezoekt. Wij verwijzen naar onze <a href="#" data-modal="modal-cookie-policy" data-dismiss="modal">cookieverklaring</a> voor gedetailleerde informatie betreffende ons cookie beleid.
+        </p>
+        <h2>
+          Privacy
+        </h2>
+        <p>
+          Wij vinden de privacy van onze klanten belangrijk. Wij verwijzen naar onze Privacy Policy voor gedetailleerde informatie betreffende ons privacy beleid.
+        </p>
+        <h2>
+          Gedrag van bezoekers
+        </h2>
+        <p>
+          Bezoekers van onze Webapplicatie gaan ermee akkoord dat ze zich zullen onthouden van: (I) het via of door de Webapplicatie verzenden van enige informatie, gegevens, tekst, bestanden, links, software, chats, communicatie of andere gegevens die schadelijk, onwettelijk, bedreigend, beledigend, kwetsend, lasterlijk, vulgair, obsceen, racistisch of verwerpelijk zijn of zo ervaren worden door Attentia; (II) het verzenden of pogen te verzenden van enig virus, Trojaans paard of ander middel dat software beschadigt of vernietigt; (III) het al dan niet bewust schenden van enige van toepassing zijnde wet of regelgeving; en (IV) het plegen van inbreuken op de privacy of enig persoonlijk recht (inclusief intellectuele eigendomsrechten) van enig (rechts)persoon.
+          Attentia kan om welke reden dan ook te allen tijde uw toegang tot (delen van) de Webapplicatie blokkeren en/of opschorten.
+        </p>
+        <h2>Intellectuele eigendomsrechten</h2>
+        <p>
+          Deze Webapplicatie en de volledige inhoud ervan is auteursrechtelijk beschermd. U heeft het recht de informatie van deze Webapplicatie voor persoonlijk gebruik te consulteren, downloaden en reproduceren, doch dit enkel in overeenstemming met de bepalingen van de wet van 30 juni 1994 betreffende het auteursrecht en de naburige rechten en slechts voor zoverre dit conform is met een normaal persoonlijk gebruik van de informatie. Dit recht op gebruik mag louter voor informatieve doeleinden worden aangewend, dit met uitsluiting van elke verdere verveelvoudiging, distributie, commercialisatie of exploitatie aan of door derden.
+          Voormeld persoonlijk gebruiksrecht geldt niet voor teksten en/of tools die enig gebruik ervan expliciet beperken. Voor de reproductie of het gebruik van multimedia-informatie (geluid, beeld, software, e.d.) is altijd voorafgaandelijke toestemming van Attentia vereist en Attentia behoudt in elk geval te allen tijde alle intellectuele eigendomsrechten op de Webapplicatie zelf en op de ter beschikking gestelde informatie.
+        </p>
+        <h2>Beperking van aansprakelijkheid</h2>
+        <p>U gaat expliciet akkoord dat het gebruik van de Webapplicatie op uw eigen risico geschiedt. </p>
+        <p>Onze Webapplicatie kan ook feiten, meningen, inzichten, verklaringen en aanbevelingen van derde partijen bevatten. Attentia garandeert of onderschrijft geenszins de juistheid, of betrouwbaarheid van enig advies, mening, verklaring, of andere informatie weergegeven, ge-upload, of verspreid via de Webapplicatie. U erkent dat indien U vertrouwt op een dergelijke mening, verklaring, advies of informatie, zulks voor uw eigen risico geschiedt.</p>
+        <p>Enige beperkingen en/of uitsluitingen van aansprakelijkheid gelden echter slechts indien en in zoverre toelaatbaar onder Belgisch recht.</p>
+        <h2>Vrijwaring</h2>
+        <p>
+          Indien U deze Webapplicatie gebruikt, gaat U akkoord om Attentia te vrijwaren voor enige schade, verlies, kosten, vorderingen en/of aansprakelijkheden opgelopen uit hoofde van of in verband met uw schending van de gebruiksvoorwaarden van deze Webapplicatie (hierin inbegrepen doch niet beperkt tot (buiten)gerechtelijke kosten en advocatenkosten, en vorderingen van derden wegens (beweerlijke) intellectuele eigendomsrechtelijke inbreuken). U aanvaardt om zo volledig mee te werken aan de verdediging van Attentia tegen een dergelijke vordering en/of schadegeval, met dien verstande dat Attentia zich desgevallend het exclusieve controle- en verdedigingsrecht voorbehoudt.
+        </p>
+        <h2>Toepasselijk recht en geschillen</h2>
+        <p>
+          Belgisch recht is van toepassing op eventuele geschillen voortvloeiend uit het gebruik van de Webapplicatie. Elke klacht moet voorafgaandelijk doorgegeven worden aan Attentia Preventie & Bescherming vzw. Ingeval de betwisting blijft bestaan, zijn uitsluitend de rechtbanken van Brussel bevoegd, dit behoudens uitdrukkelijk anders overeengekomen tussen partijen.
+        </p>
+        <h2>
+          Commentaren, klachten en vragen
+        </h2>
+        <p>
+          Indien U een vraag of klacht heeft over deze voorwaarden, kan U contact opnemen met de beheerder van de Webapplicatie. Wij appreciëren uw feedback, doch alle commentaren, berichten, suggesties en andere communicatie die naar de beheerder worden verzonden, zullen het exclusieve eigendom van Attentia Preventie & Bescherming vzw worden. Attentia Preventie & Bescherming vzw is gerechtigd alle dergelijke berichten dan ook te gebruiken, zonder enige verplichting tot vergoeding in welke vorm dan ook.
+        </p>
+      </div>
+
+      <!-- English content -->
+      <div class="modal-body" data-language="en">
+        <p>
+          The terms and conditions for the use of the DOTS web application are defined by Attentia Prevention & Protection ASBL (hereinafter jointly referred to as “Attentia”, “we”, “us”, “our”) in this limitation of liability. The DOTS web application, including its sub-pages and sub-domains (hereinafter, the “web application”), is managed by Attentia Prevention & Protection ASBL, whose registered office is located at 1082 Berchem-Sainte-Agathe, Avenue Charles Quint, Box 1, contact at info@attentia.be, or by letter to Attentia Prevention & Protection, attn. Department of Customer Services, Avenue Charles Quint, Box 1, B-1082 Berchem-Sainte-Agathe.
+        </p>
+        <p>
+          By using this web application, you indicate that you are aware of this limitation of liability and agree to the terms and conditions. Do not use this web application if you do not accept the terms and conditions of use.
+        </p>
+        <p>
+          Attentia devotes a lot of attention and care to the web application and ensures that all information is as complete, accurate, understandable, correct and current as possible. For the socio-legal information, only reliable sources are used.
+        </p>
+        <p>
+          Despite all ongoing efforts, Attentia makes no warranties about the accuracy, completeness, correctness or updating of the information provided. Attentia disclaims any liability for any imperfections and reserves the right to modify the contents of the web application.
+        </p>
+        <p>
+          If the information provided on (or through) the web application contains imperfections, we try to correct them as soon as possible. If you notice any imperfections, you can contact the manager of the web application.
+        </p>
+        <p>
+          Attentia strives to avoid as much as possible any technical interruptions and always openly communicates about it with clients.
+        </p>
+        <h2>Hyperlinks and references</h2>
+        <p>Attentia has no control over the content or technical aspects of any third party website to which you may be sent by clicking on the hyperlinks contained in this web application. Such hyperlinks are provided purely for your convenience and their use is at your own risk. The presence of these links does not mean that Attentia approves or accepts these sites (or their content or use). Therefore, Attentia disclaims any liability for the direct or indirect damages resulting from the consultation or use of such sites.</p>
+        <h2>Online services</h2>
+        <p>Attentia disclaims any liability for the improper use of the web application by the user.</p>
+
+        <h2>Cookies</h2>
+        <p>
+          Cookies are small text files stored on your computer or mobile device when you visit our web application. We refer you to our statement regarding cookies for more detailed information about our <a href="#" data-modal="modal-cookie-policy" data-dismiss="modal">cookie policy</a>.
+        </p>
+        <h2>Privacy</h2>
+        <p>We attach great importance to respecting the privacy of our customers. We refer you to our Privacy Protection Policy for further detailed information regarding our confidentiality policy.</p>
+        <h2>Attitude of the visitors</h2>
+        <p>
+          Visitors to our web application undertake to refrain from: (I) through or by the web application, transmitting any information, data, text, files, links, software, chat, communication or other data that could be considered by Attentia as harmful, illegal, threatening, abusive, libellous, vulgar, obscene, racist or unacceptable content; (II) sending or attempting to send any virus, Trojan horse or other means in order to damage or destroy the software; (III) intentionally or unintentionally violating any law or regulation; and (IV) affecting the privacy or personal rights (including intellectual property rights) of any (legal) person. At all times, Attentia may, for any reason whatsoever, block and/or suspend your access to the web application (or parts thereof).
+        </p>
+        <h2>Intellectual property rights</h2>
+        <p>
+          This web application and all of its contents are protected by copyright. You have the right to consult the information on this web application for personal use only in accordance with the provisions of the Law of 30 June 1994 on copyright and related rights, provided that this consultation is consistent with the normal personal use of information. The usage right can only be used for informative purposes, and at the exclusion of any copying, distribution, commercialisation or usage rights by third parties. The right of the aforementioned personal use does not apply to text and/or tools that explicitly mention usage limitations. The prior approval of Attentia is required for any reproduction or use of multimedia (sound, image, software, etc.) and Attentia retains in every event and at all times the intellectual property rights pertaining to the web application.
+        </p>
+        <h2>Limitation of liability</h2>
+        <p>
+          You expressly agree that use of the web application is at your own risk.
+        </p>
+        <p>
+          Our web application may also contain facts, opinions, views, statements and recommendations of third parties. Attentia does not warrant the accuracy or reliability of any advice, opinion, statement or other information reproduced, downloaded or distributed through the web application. You acknowledge that if you rely on such opinion, statement, opinion or information, you do so at your own risk.
+        </p>
+        <p>
+          All limitations and/or exclusions of liability apply only if and insofar as Belgian law allows.
+        </p>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="fr">Fermer</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="nl">Sluiten</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="en">Close</button>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="modal-cookie-policy" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Cookies</h4>
+      </div>
+      <!-- French content -->
+      <div class="modal-body" data-language="fr">
+        <h2>En général</h2>
+        <p>
+          L'application web DOTS, y compris les sous-pages et sous-domaines (ci-après « Application web »), est gérée par Attentia Prévention & Protection asbl ayant son siège social à 1082 Sainte-Agathe-Berchem, Avenue Charles Quint, boîte 1, à contacter via info@attentia.be, ou moyennant un courrier adressé à Attentia Prévention & Protection, à l'att. du département Customer Services, Avenue Charles Quint, boîte 1, B-1082 Sainte-Agathe-Berchem.
+        </p>
+        <p>
+          La présente Déclaration en matière de cookies décrit la façon dont Attentia Corporate asbl et ses entités affiliées (Attentia secrétariat social asbl, Attentia sa, Attentia Prévention et Protection asbl, Attentia Allocations Familiales asbl et Krekelbergh-Attentia bureau social sa) (ci-après « Attentia », « nous », « notre » ou « nos ») utilisent les cookies dans le cadre de votre visite de notre Application web.
+        </p>
+        <h2>Que sont les cookies et à quelle fin sont-ils utilisés ?</h2>
+        <p>
+          Les cookies sont de petites quantités de données qui sont placées sur votre ordinateur ou votre appareil mobile par les sites Internet ou application web que vous visitez. Les informations sauvegardées dans les cookies peuvent être renvoyées au(x) serveur(s) hébergeant le site Internet ou l'application web lors d'une prochaine visite du même site Internet.
+        </p>
+        <p>
+          Les cookies sont utilisés pour faire fonctionner (plus efficacement) des sites Internet ou applications web - comme les nôtres - et fournir des informations relatives à l'utilisation en général et à ses utilisateurs - comme vous - en particulier.
+        </p>
+        <h2>Quels types de cookies utilisons-nous ?</h2>
+        <h3>Cookies essentiels</h3>
+        <p>
+          Ces cookies sont essentiels pour le fonctionnement correct de notre application web. Si vous désactivez ou supprimez ces cookies, le contenu de notre Application web ne sera plus entièrement disponible.
+        </p>
+        <h3>Cookies fonctionnels</h3>
+        <p>
+          Ces cookies retiennent certains choix que vous faites en tant qu'utilisateur de notre Application web, comme par exemple la préférence linguistique. De cette manière, nous pouvons offrir au visiteur une expérience plus personnalisée de notre Application web.
+        </p>
+        <h3>Cookies de performance</h3>
+        <p>
+          Ces cookies nous permettent d'effectuer des analyses sur le comportement de notre Application web. À cet effet, nous nous basons sur les données des visiteurs qui sont collectées via notre Application web. Il peut par exemple s'agir de la durée d'une visite, des liens sur lesquels on a cliqué ou des messages d'erreur enregistrés. Ces cookies ne collectent pas de données pouvant identifier les visiteurs et ils sont utilisés exclusivement en vue d'améliorer le fonctionnement de notre Application web.
+        </p>
+        <h3>Cookies tiers</h3>
+        <p>
+          Nous utilisons entre autres certaines applications de <a href="http://www.google.be/intl/nl/analytics/index.html" target="_blank">Google Analytics</a>. Google Analytics utilise des cookies permanents pour dresser la carte du comportement de navigation des visiteurs sur notre Application web et l'analyser.
+        </p>
+        <h2>Délai de conversation</h2>
+        <h3>Cookies de session</h3>
+        <p>Les cookies de session stockent uniquement des informations relatives à votre visite actuelle de notre Application web. Les cookies de session stockent uniquement des informations relatives à votre visite actuelle de notre Application web. Les cookies de session sont automatiquement supprimés de votre ordinateur ou appareil mobile dès que vous fermez votre navigateur Internet. </p>
+        <h3>Cookies permanents</h3>
+        <p>Les cookies permanents sont conservés sur votre ordinateur ou votre appareil mobile, même après la fermeture de votre navigateur Internet. Ces cookies permanents peuvent toutefois être supprimés à tout moment manuellement via les réglages de votre navigateur Internet (voir également ci-après). Nous utilisons les cookies permanents pour conserver certaines données, comme par exemple votre adresse e-mail ou la préférence linguistique. Ainsi, vous ne devez pas réintroduire chaque fois les mêmes données lors d'une nouvelle visite de notre Application web. </p>
+        <h2>Accepter ou non les cookies et les supprimer</h2>
+        <p>
+          Vous pouvez adapter à tout moment les réglages de votre navigateur Internet de façon à obtenir un avertissement avant que les cookies soient acceptés, ou même opter de refuser systématiquement les cookies. Vous pouvez également supprimer à tout moment les cookies conservés sur votre ordinateur ou appareil mobile. Cliquez sur le bouton d'aide de votre navigateur Internet pour vérifier comment modifier les réglages en question et/ou supprimer les cookies.
+        </p>
+        <p>
+          Tenez compte du fait que si vous n'acceptez pas l'utilisation de cookies ou que si vous supprimez des cookies par la suite, certains éléments de notre Application web ne seront éventuellement plus accessibles intégralement ou ne fonctionneront peut-être plus correctement. Si vous supprimez tous les cookies ou si vous vous connectez à nouveau via un autre navigateur, nous vous demanderons de nouveau si vous acceptez la présente Déclaration en matière de cookies en tant que visiteur.
+        </p>
+      </div>
+      
+      <!-- Dutch content -->
+      <div class="modal-body" data-language="nl">
+        <h2>Algemeen</h2>
+        <p>
+          De webapplicatie DOTS, inclusief subpagina’s en subdomeinen (hierna “Webapplicatie” genoemd) wordt beheerd door Attentia Preventie & Bescherming vzw. met maatschappelijke zetel te 1082 Sint-Agatha-Berchem, Keizer Karellaan 584 bus 1, te contacteren via info@attentia.be, of middels schrijven gericht aan Attentia Preventie & Bescherming, t.a.v. de afdeling Customer Services, Keizer Karellaan 584, B-1082 Sint-Agatha-Berchem.
+        </p>
+        <p>
+          In deze Cookieverklaring wordt beschreven hoe Attentia corporate vzw. en haar aangesloten entiteiten (Attentia sociaal secretariaat vzw., Attentia nv, Attentia Preventie & Bescherming vzw., Attentia Kinderbijslag vzw. en Krekelbergh-Attentia sociaal kantoor nv) (hierna "Attentia", "wij", "ons" of "onze") gebruik maken van cookies in het kader van uw bezoek aan onze Webapplicatie.
+        </p>
+
+        <h2>Wat zijn cookies en met welk doel worden ze gebruikt?</h2>
+        <p>
+          Cookies zijn kleine hoeveelheden data die op uw computer of uw mobiel toestel worden geplaatst door de websites of webapplicaties die U bezoekt. De in cookies opgeslagen informatie kan bij een volgend bezoek aan dezelfde website of webapplicatie naar de server(s) waarop de website of webapplicatie wordt gehost, teruggestuurd worden.
+        </p>
+        <p>
+          Cookies worden gebruikt om websites of webapplicaties - zoals de onze - (efficiënter) te doen functioneren en informatie te verstrekken omtrent het gebruik in het algemeen en haar gebruikers - zoals U - in het bijzonder.
+        </p>
+
+        <h2>Welke soort cookies worden door ons gebruikt?</h2>
+        <h3>Essentiële cookies</h3>
+        <p>
+          Deze cookies zijn noodzakelijk voor het correct functioneren van onze Webapplicatie. Wanneer U deze cookies uitschakelt of verwijdert, zal de inhoud van onze Webapplicatie niet volledig beschikbaar zijn.
+        </p>
+        <h3>
+          Functionele cookies
+        </h3>
+        <p>
+          Deze cookies onthouden bepaalde keuzes die U als bezoeker van onze Webapplicatie maakt, zoals bijvoorbeeld de gekozen voorkeurtaal. Op die manier kunnen wij U als bezoeker een meer gepersonaliseerde beleving bieden van onze Webapplicatie.
+        </p>
+        <h3>Prestatiecookies</h3>
+        <p>
+          Deze cookies laten ons toe analyses uit te voeren over hoe onze Webapplicatie zich gedraagt. Hiervoor baseren wij ons op de bezoekersgegevens die verzameld worden via onze Webapplicatie. Dit kan bijvoorbeeld de duurtijd van een bezoek zijn, welke links er aangeklikt worden of welke foutmeldingen zich voordoen. Deze cookies verzamelen geen gegevens die bezoekers kunnen identificeren en worden uitsluitend gebruikt om de werking van onze Webapplicatie te verbeteren.
+        </p>
+        <h3>Third-party cookies</h3>
+        <p>
+          Wij maken onder meer gebruik van bepaalde toepassingen van <a href="http://www.google.be/intl/nl/analytics/index.html" target="_blank">Google Analytics</a>. “Google Analytics” gebruikt cookies om het surfgedrag van bezoekers aan onze Webapplicatie in kaart te brengen alsook om performantiemetingen uit te voeren en deze gegevens te analyseren.
+        </p>
+        <h2>Bewaartermijn</h2>
+        <h3>Sessie-cookies</h3>
+        <p>
+          In sessie-cookies wordt louter informatie opgeslagen met betrekking tot uw huidig bezoek aan onze Webapplicatie. Sessie-cookies laten U bijvoorbeeld toe aangemeld te blijven zolang uw bezoek aan onze Webapplicatie duurt. Sessie-cookies worden automatisch verwijderd van uw computer of uw mobiel toestel van zodra U uw internet browser afsluit.
+        </p>
+        <h3>Permanente cookies</h3>
+        <p>Permanente cookies blijven bewaard op uw computer of mobiel toestel, ook nadat U uw internet browser heeft afgesloten. Deze permanente cookies kunnen evenwel te allen tijde manueel worden verwijderd via de instellingen van uw internet browser (zie ook hierna). Wij gebruiken permanente cookies om bepaalde gegevens te bewaren, zoals bijvoorbeeld uw e-mailadres of voorkeurtaal. Hierdoor dient U niet telkens opnieuw dezelfde gegevens in te geven bij een nieuw bezoek aan onze Website.</p>
+        <h2>. Cookies al dan niet aanvaarden en verwijderen</h2>
+        <p>
+          U kan te allen tijde de instellingen van uw internet browser dusdanig aanpassen zodat U een waarschuwing krijgt alvorens cookies worden aanvaard, of zelfs opteren om cookies stelselmatig te weigeren. U kan ook te allen tijde de op uw computer of uw mobiel toestel bewaarde cookies verwijderen. Klik op de helpknop van uw internet browser om na te gaan hoe U de desbetreffende instellingen kan wijzigen en/of de cookies kan verwijderen.
+        </p>
+        <p>Hou er rekening mee dat wanneer U het gebruik van cookies niet aanvaardt of op een later tijdstip cookies verwijdert, bepaalde onderdelen van onze Webapplicatie mogelijk niet langer integraal toegankelijk zijn of correct zullen functioneren. Wanneer U alle cookies verwijdert of via een andere browser opnieuw inlogt, zullen wij U als bezoeker opnieuw vragen of u huidige Cookieverklaring aanvaardt.</p>
+      </div>
+
+      <!-- English content -->
+      <div class="modal-body" data-language="en">
+        <h2>In general</h2>
+        <p>
+          The DOTS web application, including its sub-pages and sub-domains (hereinafter, the “web application”), is managed by Attentia Prevention & Protection ASBL, whose registered office is located at 1082 Berchem-Sainte-Agathe, Avenue Charles Quint, Box 1, contact at info@attentia.be, or by letter to Attentia Prevention & Protection, attn. Department of Customer Services, Avenue Charles Quint, Box 1, B-1082 Berchem-Sainte-Agathe.
+        </p>
+        <p>
+          This statement regarding cookies describes how Attentia Corporate ASBL and its affiliated entities (Attentia Secrétariat Social ASBL, Attentia SA, Prévention et Protection ASBL, Attentia Allocations Familiales ASBL and Krekelbergh-Attentia Bureau Social SA) (hereinafter "Attentia", "we", "us" or "our") use cookies in connection with your visit to our web application.
+        </p>
+        <h2>What are cookies and for what purpose are they used?</h2>
+        <p>
+          Cookies are small amounts of data that are placed on your computer or mobile device by the websites or web application that you visit. The information stored in cookies may be referred to the server(s) hosting the website or web application during a subsequent visit from the same website.
+        </p>
+        <p>
+          Cookies are used to (more efficiently) operate websites or web applications - like ours - and to provide information concerning the usage in general and concerning its users - like you - in particular.
+        </p>
+        <h2>What types of cookies do we use?</h2>
+        <h3>Essential cookies</h3>
+        <p>
+          These cookies are essential for the proper operation of our web application. If you disable or delete these cookies, the content of our web application will not be entirely available.
+        </p>
+        <h3>Functional cookies</h3>
+        <p>
+          These cookies retain certain choices that you make as a user of our web application, such as the language preference. In this way, we can offer visitors a more personalised experience on our web application.
+        </p>
+        <h3>Performance cookies</h3>
+        <p>
+          These cookies allow us to analyse the behaviour of our web application. To this end, we rely on visitor data that is collected via our web application. This may include, for example, the length of a visit, the links that were clicked or the error messages recorded. These cookies do not collect data that can identify visitors and are used exclusively to improve the operation of our web application.
+        </p>
+        <h3>Third party cookies</h3>
+        <p>
+          We use certain third party applications, including some from <a href="http://www.google.be/intl/en/analytics/index.html" target="_blank">Google Analytics</a>. Google Analytics uses persistent cookies to map the surfing behaviour of visitors to our web application and analyse it.
+        </p>
+        <h2>Conversation time</h2>
+        <h3>Session cookies</h3>
+        <p>The session cookies only store information about your current visit to our web application. The session cookies only store information about your current visit to our web application. The session cookies are automatically deleted from your computer or mobile device as soon as you close your browser.</p>
+        <h3>Persistent cookies</h3>
+        <p>Persistent cookies remain on your computer or mobile device, even after closing your browser. These persistent cookies can, however, be deleted manually at any time through your browser settings (see also below). We use persistent cookies to store certain data, such as your e-mail address or language preference. Thus, you do not need to re-insert the same data every time upon each new visit to our web application.</p>
+        <h2>Accepting or not accepting cookies and deleting them</h2>
+        <p>
+          At any time, you can adjust your browser settings to give a warning before the cookies are accepted, or even opt to systematically refuse cookies. You can also delete the cookies stored on your computer or mobile device at any time. Click the Help button on your browser to see how to change the settings in question and/or delete the cookies.
+        </p>
+        <p>
+          Be aware that if you do not accept the use of cookies or if you delete the cookies later, elements of our web application will no longer be fully accessible or may not work properly. If you delete all of the cookies, or if you connect again using another browser, we will ask you again if you agree to this Statement regarding cookies as a visitor.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="fr">Fermer</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="nl">Sluiten</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-language="en">Close</button>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+
+<!-- /.modal -->

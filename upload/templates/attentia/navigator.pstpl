@@ -1,0 +1,10 @@
+<!-- Fixed navbar -->
+<div class="form-navigation" role="navigation">
+  <div class="container">
+    <div class="navbar-header row">
+      <div class="navigation col-md-12">
+        {NAVIGATOR}
+      </div>
+    </div>
+  </div>
+</div>
