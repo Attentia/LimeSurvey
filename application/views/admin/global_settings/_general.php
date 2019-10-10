@@ -132,8 +132,8 @@
         </div>
     </div>
 
-
-    <div class="form-group" <?php if( ! isset(Yii::app()->session->connectionID)) echo 'style="display: none"';?>>
+    <!--iSessionExpirationTime is niet langer afhankelijk van bewaren van sessie in DB -->
+    <div class="form-group">
         <label class="col-sm-2 control-label"  for='iSessionExpirationTime'><?php eT("Session lifetime for surveys (seconds):"); ?></label>
             <div class="col-sm-3">
                 <input class="form-control"  type='text' size='10' id='iSessionExpirationTime' name='iSessionExpirationTime' value="<?php echo htmlspecialchars(getGlobalSetting('iSessionExpirationTime')); ?>" />
